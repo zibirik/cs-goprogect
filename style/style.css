@@ -158,6 +158,10 @@ ul{
 .banner{
   display: block;
 }
+.banner:hover {
+  -webkit-filter: grayscale(1);
+   filter: grayscale(1);
+}
 
 .footer {
   margin-bottom: 100px;
