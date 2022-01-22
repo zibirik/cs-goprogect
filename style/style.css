@@ -79,12 +79,16 @@ body {
 /* Sub menu */
 .nav_sub {
   position: absolute;
+  z-index: 100;
   list-style: none;
   border: 2px solid white;
+  background: #000000;
   margin: 20px 0 0 0;
   padding: 0;
   display: none;
 }
+
+
 .nav_sub .nav_item {
   border-bottom: 1px solid white;
   display: block;
@@ -96,6 +100,7 @@ body {
 }
 .nav_sub .nav_link {
   padding: 8px;
+  padding-right: 100px;
   display: block;
 }
 
