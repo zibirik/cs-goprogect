@@ -1,3 +1,4 @@
+// Hover submenu
 $(document).ready(function () { 
 	$('#submenu').hover(
 		function () {
@@ -8,5 +9,3 @@ $(document).ready(function () {
 		}
 	);
 });
-
-
