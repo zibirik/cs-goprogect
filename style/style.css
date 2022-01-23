@@ -161,6 +161,7 @@ ul{
 }
 .banner:hover {
    transform: scale(1.03);
+   filter: brightness(150%);
 }
 
 .footer {
