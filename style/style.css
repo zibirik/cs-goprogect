@@ -156,10 +156,10 @@ ul{
 
 .banner{
   display: block;
+  transition: 0.3s;
 }
 .banner:hover {
-  -webkit-filter: grayscale(1);
-   filter: grayscale(1);
+   transform: scale(1.03);
 }
 
 .footer {
