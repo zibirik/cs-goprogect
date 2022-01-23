@@ -81,7 +81,6 @@ body {
 /* Sub menu */
 .nav_sub {
   position: absolute;
-  z-index: 100;
   list-style: none;
   border: 2px solid white;
   background: #000000;
