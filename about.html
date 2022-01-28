@@ -24,8 +24,14 @@
     <div class="container">
       <nav class="nav bg">
         <ul class="nav_ul">
-          <li class="nav_item"><a class="nav_link" href="index.html">Об играе</a></li>
-          <li class="nav_item"><a class="nav_link" href="Exiting.html">Выходы из игры</a></li>
+          <li id="submenu" class="nav_item"><a class="nav_link" href="index.html">Об игре</a><ul class="nav_sub">
+            <li class="nav_item"><a  class="nav_link" href="history.html">История</a></li>
+            <li class="nav_item"><a  class="nav_link" href="team's.html">Команды</a></li>
+            <li class="nav_item"><a  class="nav_link" href="bloge.html">Обновления</a></li>
+            <li class="nav_item"><a  class="nav_link" href="aboutthegame.html">Об игре</a></li>
+          </ul>
+        </li>
+          <li class="nav_item"><a class="nav_link" href="exitingame.html">Выходы из игры</a></li>
           <li class="nav_item"><a class="nav_link active" href="about.html">ZIBIRIK's</a></li>
         </ul>
       </nav>
@@ -215,5 +221,7 @@
       </div>
       <p>&copy; 2022 👾</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>
